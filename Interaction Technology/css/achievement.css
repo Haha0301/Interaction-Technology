@@ -1,0 +1,456 @@
+#wrap {
+  width: 1349px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: 62px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(2, 20, 32, 0.2);
+  z-index: 9999; }
+  header #h-box {
+    margin: 0 auto;
+    width: 1349px; }
+    header #h-box .logo {
+      background: url(../image/first-page/logo-all.png) no-repeat;
+      width: 141px;
+      height: 47px;
+      margin-top: 20px;
+      margin-left: 20px; }
+    header #h-box .nav {
+      margin-right: 20px; }
+      header #h-box .nav li {
+        line-height: 60px;
+        margin-left: 60px;
+        float: left; }
+        header #h-box .nav li a {
+          color: #5f5f5f; }
+        header #h-box .nav li a:hover {
+          color: #eeff01; }
+        header #h-box .nav li .achievement {
+          color: #eeff01;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #eeff01; }
+      header #h-box .nav li:nth-child(6) a {
+        display: inline-block;
+        width: 106px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        color: #021420;
+        border: 1px solid #eeff01;
+        background: #eeff01;
+        border-radius: 15px; }
+      header #h-box .nav li:nth-child(6) a:hover {
+        color: #eeff01;
+        background: none; }
+
+#banner {
+  width: 100%;
+  height: 468px;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+#box {
+  position: relative;
+  margin-top: 468px;
+  background-color: #f7f7f7;
+  width: 100%;
+  margin-bottom: -100px; }
+  #box .context {
+    position: relative;
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    padding: 82px 40px 100px;
+    background-color: #fff; }
+    #box .context h1 {
+      font-size: 40px;
+      margin-bottom: 60px;
+      text-align: center;
+      color: #666; }
+    #box .context .title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 40px; }
+      #box .context .title a {
+        color: #070200;
+        margin-right: 80px; }
+      #box .context .title a:nth-child(3) {
+        margin-right: 0; }
+      #box .context .title a.active {
+        border-bottom: 2px solid #000; }
+    #box .context ul {
+      display: none; }
+      #box .context ul li {
+        height: 430px;
+        float: left;
+        margin: 0 7px;
+        text-align: center;
+        overflow: hidden; }
+        #box .context ul li div {
+          position: relative;
+          top: 0;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+          #box .context ul li div h3 {
+            font-size: 18px;
+            margin-bottom: 18px;
+            color: #666; }
+          #box .context ul li div h4 {
+            color: #999; }
+          #box .context ul li div a {
+            font-size: 20px;
+            opacity: 0;
+            display: block;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            margin: 20px auto 0;
+            text-align: center;
+            color: #999;
+            border: 1px solid #999;
+            border-radius: 20px; }
+      #box .context ul li:hover div {
+        top: -50px;
+        background: #fff;
+        transition: 1s all ease; }
+        #box .context ul li:hover div a {
+          opacity: 1;
+          transition: 1s all ease; }
+        #box .context ul li:hover div a:hover {
+          transition: 1s all ease;
+          background: #eeff01;
+          border-color: #eeff01;
+          color: #000; }
+    #box .context ul.active {
+      display: block; }
+    #box .context .page {
+      text-align: center;
+      color: #5f5f5f; }
+
+footer {
+  width: 1349px;
+  position: relative;
+  background-color: #eee;
+  padding: 40px 0; }
+  footer ul {
+    margin-left: 24.5px;
+    margin-bottom: 45px; }
+    footer ul li {
+      width: 289px;
+      height: 120px;
+      float: left;
+      padding-top: 30px;
+      padding-left: 30px;
+      margin-left: 8px; }
+      footer ul li h3 {
+        margin-bottom: 20px;
+        color: #070200; }
+        footer ul li h3 span {
+          font-size: 18px;
+          font-weight: bolder; }
+        footer ul li h3 i {
+          font-size: 12px; }
+      footer ul li a {
+        color: #666; }
+    footer ul li:nth-child(1) {
+      background: url(../image/first-page/addr-bg-sz.png) no-repeat;
+      margin-left: 0; }
+    footer ul li:nth-child(2) {
+      background: url(../image/first-page/addr-bg-nj.png) no-repeat; }
+    footer ul li:nth-child(3) {
+      background: url(../image/first-page/addr-bg-wh.png) no-repeat; }
+    footer ul li:nth-child(4) {
+      background: url(../image/first-page/addr-bg-bj.png) no-repeat; }
+  footer .contact {
+    margin-left: 24.5px;
+    font-size: 18px;
+    color: #666;
+    padding-left: 32px;
+    margin-bottom: 20px; }
+    footer .contact p {
+      float: left;
+      margin-right: 103px; }
+      footer .contact p span {
+        color: #070200; }
+      footer .contact p a {
+        display: inline-block;
+        background: url(../image/first-page/coo-qq.png);
+        margin-left: 10px;
+        width: 16px;
+        height: 16px; }
+  footer .copyright {
+    margin-left: 24.5px;
+    padding-left: 32px;
+    font-size: 16px;
+    color: #9d9d9d; }
+    footer .copyright a {
+      color: #9d9d9d; }
+
+#share {
+  position: fixed;
+  right: 50px;
+  bottom: 200px;
+  width: 36px;
+  height: 152px;
+  z-index: 10;
+  opacity: 0;
+  transition: 1s all ease; }
+  #share a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 1px; }
+  #share .qq {
+    background: url(../image/first-page/right-qq.png) #3299dc no-repeat center; }
+  #share .phone {
+    background: url(../image/first-page/right-phone.png) #fc3 no-repeat center; }
+    #share .phone dl {
+      position: absolute;
+      left: -224px;
+      bottom: 78px;
+      width: 220px;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+      display: none; }
+      #share .phone dl dt {
+        line-height: 56px;
+        height: 56px;
+        padding: 0 20px;
+        background-color: #fc3;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        color: #fff; }
+        #share .phone dl dt img {
+          margin-top: 22px; }
+      #share .phone dl dd {
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 41px;
+        height: 41px; }
+        #share .phone dl dd em {
+          color: #666;
+          margin-left: 10px; }
+        #share .phone dl dd i {
+          color: #999; }
+  #share .weixin {
+    background: url(../image/first-page/right-weixin.png) #58dd00 no-repeat center; }
+    #share .weixin dl {
+      position: absolute;
+      left: -224px;
+      bottom: 40px;
+      width: 220px;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+      display: none; }
+      #share .weixin dl dt {
+        line-height: 56px;
+        height: 56px;
+        padding: 0 20px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        background-color: #58dd00; }
+        #share .weixin dl dt img {
+          margin-top: 22px; }
+      #share .weixin dl dd {
+        text-align: center;
+        padding: 20px 0 10px 0; }
+        #share .weixin dl dd p {
+          font-weight: 500;
+          color: #999;
+          padding: 10px 0; }
+  #share .top {
+    background: url(../image/first-page/right-top.png) #989d9b no-repeat center; }
+
+#secBanner {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  #secBanner #p-banner, #secBanner #t-banner, #secBanner #g-banner, #secBanner #h-banner, #secBanner #a-banner, #secBanner #e-banner, #secBanner #m-banner {
+    background: url(../image/achievement/bg2.png) no-repeat;
+    background-size: contain;
+    height: 424px; }
+  #secBanner #t-banner {
+    background: url(../image/achievement/bg3.png) no-repeat;
+    background-size: contain; }
+  #secBanner #g-banner {
+    background: url(../image/achievement/bg4.png) no-repeat;
+    background-size: contain; }
+  #secBanner #h-banner {
+    background: url(../image/achievement/bg5.png) no-repeat;
+    background-size: contain; }
+  #secBanner #a-banner {
+    background: url(../image/achievement/bg6.png) no-repeat;
+    background-size: contain; }
+  #secBanner #e-banner {
+    background: url(../image/achievement/bg7.png) no-repeat;
+    background-size: contain; }
+  #secBanner #m-banner {
+    background: url(../image/achievement/bg9.png) no-repeat;
+    background-size: contain; }
+
+#p-box, #t-box, #g-box, #hui-box, #a-box, #e-box, #m-box {
+  position: relative;
+  background-color: #f7f7f7;
+  width: 100%;
+  margin-top: 424px;
+  margin-bottom: -100px; }
+  #p-box .p-context, #p-box .t-context, #p-box .g-context, #p-box .h-context, #p-box .a-context, #p-box .e-context, #p-box .m-context, #t-box .p-context, #t-box .t-context, #t-box .g-context, #t-box .h-context, #t-box .a-context, #t-box .e-context, #t-box .m-context, #g-box .p-context, #g-box .t-context, #g-box .g-context, #g-box .h-context, #g-box .a-context, #g-box .e-context, #g-box .m-context, #hui-box .p-context, #hui-box .t-context, #hui-box .g-context, #hui-box .h-context, #hui-box .a-context, #hui-box .e-context, #hui-box .m-context, #a-box .p-context, #a-box .t-context, #a-box .g-context, #a-box .h-context, #a-box .a-context, #a-box .e-context, #a-box .m-context, #e-box .p-context, #e-box .t-context, #e-box .g-context, #e-box .h-context, #e-box .a-context, #e-box .e-context, #e-box .m-context, #m-box .p-context, #m-box .t-context, #m-box .g-context, #m-box .h-context, #m-box .a-context, #m-box .e-context, #m-box .m-context {
+    position: relative;
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    padding: 82px 40px 100px;
+    background-color: #fff; }
+    #p-box .p-context h1, #p-box .t-context h1, #p-box .g-context h1, #p-box .h-context h1, #p-box .a-context h1, #p-box .e-context h1, #p-box .m-context h1, #t-box .p-context h1, #t-box .t-context h1, #t-box .g-context h1, #t-box .h-context h1, #t-box .a-context h1, #t-box .e-context h1, #t-box .m-context h1, #g-box .p-context h1, #g-box .t-context h1, #g-box .g-context h1, #g-box .h-context h1, #g-box .a-context h1, #g-box .e-context h1, #g-box .m-context h1, #hui-box .p-context h1, #hui-box .t-context h1, #hui-box .g-context h1, #hui-box .h-context h1, #hui-box .a-context h1, #hui-box .e-context h1, #hui-box .m-context h1, #a-box .p-context h1, #a-box .t-context h1, #a-box .g-context h1, #a-box .h-context h1, #a-box .a-context h1, #a-box .e-context h1, #a-box .m-context h1, #e-box .p-context h1, #e-box .t-context h1, #e-box .g-context h1, #e-box .h-context h1, #e-box .a-context h1, #e-box .e-context h1, #e-box .m-context h1, #m-box .p-context h1, #m-box .t-context h1, #m-box .g-context h1, #m-box .h-context h1, #m-box .a-context h1, #m-box .e-context h1, #m-box .m-context h1 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 26px;
+      text-align: center;
+      color: #666; }
+    #p-box .p-context ul li, #p-box .t-context ul li, #p-box .g-context ul li, #p-box .h-context ul li, #p-box .a-context ul li, #p-box .e-context ul li, #p-box .m-context ul li, #t-box .p-context ul li, #t-box .t-context ul li, #t-box .g-context ul li, #t-box .h-context ul li, #t-box .a-context ul li, #t-box .e-context ul li, #t-box .m-context ul li, #g-box .p-context ul li, #g-box .t-context ul li, #g-box .g-context ul li, #g-box .h-context ul li, #g-box .a-context ul li, #g-box .e-context ul li, #g-box .m-context ul li, #hui-box .p-context ul li, #hui-box .t-context ul li, #hui-box .g-context ul li, #hui-box .h-context ul li, #hui-box .a-context ul li, #hui-box .e-context ul li, #hui-box .m-context ul li, #a-box .p-context ul li, #a-box .t-context ul li, #a-box .g-context ul li, #a-box .h-context ul li, #a-box .a-context ul li, #a-box .e-context ul li, #a-box .m-context ul li, #e-box .p-context ul li, #e-box .t-context ul li, #e-box .g-context ul li, #e-box .h-context ul li, #e-box .a-context ul li, #e-box .e-context ul li, #e-box .m-context ul li, #m-box .p-context ul li, #m-box .t-context ul li, #m-box .g-context ul li, #m-box .h-context ul li, #m-box .a-context ul li, #m-box .e-context ul li, #m-box .m-context ul li {
+      margin: 0 13px;
+      text-align: center;
+      float: left; }
+      #p-box .p-context ul li a div, #p-box .t-context ul li a div, #p-box .g-context ul li a div, #p-box .h-context ul li a div, #p-box .a-context ul li a div, #p-box .e-context ul li a div, #p-box .m-context ul li a div, #t-box .p-context ul li a div, #t-box .t-context ul li a div, #t-box .g-context ul li a div, #t-box .h-context ul li a div, #t-box .a-context ul li a div, #t-box .e-context ul li a div, #t-box .m-context ul li a div, #g-box .p-context ul li a div, #g-box .t-context ul li a div, #g-box .g-context ul li a div, #g-box .h-context ul li a div, #g-box .a-context ul li a div, #g-box .e-context ul li a div, #g-box .m-context ul li a div, #hui-box .p-context ul li a div, #hui-box .t-context ul li a div, #hui-box .g-context ul li a div, #hui-box .h-context ul li a div, #hui-box .a-context ul li a div, #hui-box .e-context ul li a div, #hui-box .m-context ul li a div, #a-box .p-context ul li a div, #a-box .t-context ul li a div, #a-box .g-context ul li a div, #a-box .h-context ul li a div, #a-box .a-context ul li a div, #a-box .e-context ul li a div, #a-box .m-context ul li a div, #e-box .p-context ul li a div, #e-box .t-context ul li a div, #e-box .g-context ul li a div, #e-box .h-context ul li a div, #e-box .a-context ul li a div, #e-box .e-context ul li a div, #e-box .m-context ul li a div, #m-box .p-context ul li a div, #m-box .t-context ul li a div, #m-box .g-context ul li a div, #m-box .h-context ul li a div, #m-box .a-context ul li a div, #m-box .e-context ul li a div, #m-box .m-context ul li a div {
+        overflow: hidden; }
+        #p-box .p-context ul li a div img, #p-box .t-context ul li a div img, #p-box .g-context ul li a div img, #p-box .h-context ul li a div img, #p-box .a-context ul li a div img, #p-box .e-context ul li a div img, #p-box .m-context ul li a div img, #t-box .p-context ul li a div img, #t-box .t-context ul li a div img, #t-box .g-context ul li a div img, #t-box .h-context ul li a div img, #t-box .a-context ul li a div img, #t-box .e-context ul li a div img, #t-box .m-context ul li a div img, #g-box .p-context ul li a div img, #g-box .t-context ul li a div img, #g-box .g-context ul li a div img, #g-box .h-context ul li a div img, #g-box .a-context ul li a div img, #g-box .e-context ul li a div img, #g-box .m-context ul li a div img, #hui-box .p-context ul li a div img, #hui-box .t-context ul li a div img, #hui-box .g-context ul li a div img, #hui-box .h-context ul li a div img, #hui-box .a-context ul li a div img, #hui-box .e-context ul li a div img, #hui-box .m-context ul li a div img, #a-box .p-context ul li a div img, #a-box .t-context ul li a div img, #a-box .g-context ul li a div img, #a-box .h-context ul li a div img, #a-box .a-context ul li a div img, #a-box .e-context ul li a div img, #a-box .m-context ul li a div img, #e-box .p-context ul li a div img, #e-box .t-context ul li a div img, #e-box .g-context ul li a div img, #e-box .h-context ul li a div img, #e-box .a-context ul li a div img, #e-box .e-context ul li a div img, #e-box .m-context ul li a div img, #m-box .p-context ul li a div img, #m-box .t-context ul li a div img, #m-box .g-context ul li a div img, #m-box .h-context ul li a div img, #m-box .a-context ul li a div img, #m-box .e-context ul li a div img, #m-box .m-context ul li a div img {
+          width: 380px;
+          height: 380px;
+          margin-bottom: 20px;
+          transition: 1s all ease; }
+        #p-box .p-context ul li a div img:hover, #p-box .t-context ul li a div img:hover, #p-box .g-context ul li a div img:hover, #p-box .h-context ul li a div img:hover, #p-box .a-context ul li a div img:hover, #p-box .e-context ul li a div img:hover, #p-box .m-context ul li a div img:hover, #t-box .p-context ul li a div img:hover, #t-box .t-context ul li a div img:hover, #t-box .g-context ul li a div img:hover, #t-box .h-context ul li a div img:hover, #t-box .a-context ul li a div img:hover, #t-box .e-context ul li a div img:hover, #t-box .m-context ul li a div img:hover, #g-box .p-context ul li a div img:hover, #g-box .t-context ul li a div img:hover, #g-box .g-context ul li a div img:hover, #g-box .h-context ul li a div img:hover, #g-box .a-context ul li a div img:hover, #g-box .e-context ul li a div img:hover, #g-box .m-context ul li a div img:hover, #hui-box .p-context ul li a div img:hover, #hui-box .t-context ul li a div img:hover, #hui-box .g-context ul li a div img:hover, #hui-box .h-context ul li a div img:hover, #hui-box .a-context ul li a div img:hover, #hui-box .e-context ul li a div img:hover, #hui-box .m-context ul li a div img:hover, #a-box .p-context ul li a div img:hover, #a-box .t-context ul li a div img:hover, #a-box .g-context ul li a div img:hover, #a-box .h-context ul li a div img:hover, #a-box .a-context ul li a div img:hover, #a-box .e-context ul li a div img:hover, #a-box .m-context ul li a div img:hover, #e-box .p-context ul li a div img:hover, #e-box .t-context ul li a div img:hover, #e-box .g-context ul li a div img:hover, #e-box .h-context ul li a div img:hover, #e-box .a-context ul li a div img:hover, #e-box .e-context ul li a div img:hover, #e-box .m-context ul li a div img:hover, #m-box .p-context ul li a div img:hover, #m-box .t-context ul li a div img:hover, #m-box .g-context ul li a div img:hover, #m-box .h-context ul li a div img:hover, #m-box .a-context ul li a div img:hover, #m-box .e-context ul li a div img:hover, #m-box .m-context ul li a div img:hover {
+          transform: scale(1.05, 1.05); }
+      #p-box .p-context ul li a h6, #p-box .t-context ul li a h6, #p-box .g-context ul li a h6, #p-box .h-context ul li a h6, #p-box .a-context ul li a h6, #p-box .e-context ul li a h6, #p-box .m-context ul li a h6, #t-box .p-context ul li a h6, #t-box .t-context ul li a h6, #t-box .g-context ul li a h6, #t-box .h-context ul li a h6, #t-box .a-context ul li a h6, #t-box .e-context ul li a h6, #t-box .m-context ul li a h6, #g-box .p-context ul li a h6, #g-box .t-context ul li a h6, #g-box .g-context ul li a h6, #g-box .h-context ul li a h6, #g-box .a-context ul li a h6, #g-box .e-context ul li a h6, #g-box .m-context ul li a h6, #hui-box .p-context ul li a h6, #hui-box .t-context ul li a h6, #hui-box .g-context ul li a h6, #hui-box .h-context ul li a h6, #hui-box .a-context ul li a h6, #hui-box .e-context ul li a h6, #hui-box .m-context ul li a h6, #a-box .p-context ul li a h6, #a-box .t-context ul li a h6, #a-box .g-context ul li a h6, #a-box .h-context ul li a h6, #a-box .a-context ul li a h6, #a-box .e-context ul li a h6, #a-box .m-context ul li a h6, #e-box .p-context ul li a h6, #e-box .t-context ul li a h6, #e-box .g-context ul li a h6, #e-box .h-context ul li a h6, #e-box .a-context ul li a h6, #e-box .e-context ul li a h6, #e-box .m-context ul li a h6, #m-box .p-context ul li a h6, #m-box .t-context ul li a h6, #m-box .g-context ul li a h6, #m-box .h-context ul li a h6, #m-box .a-context ul li a h6, #m-box .e-context ul li a h6, #m-box .m-context ul li a h6 {
+        font-size: 24px;
+        color: #666;
+        text-align: center;
+        padding-bottom: 5px; }
+      #p-box .p-context ul li a span, #p-box .t-context ul li a span, #p-box .g-context ul li a span, #p-box .h-context ul li a span, #p-box .a-context ul li a span, #p-box .e-context ul li a span, #p-box .m-context ul li a span, #t-box .p-context ul li a span, #t-box .t-context ul li a span, #t-box .g-context ul li a span, #t-box .h-context ul li a span, #t-box .a-context ul li a span, #t-box .e-context ul li a span, #t-box .m-context ul li a span, #g-box .p-context ul li a span, #g-box .t-context ul li a span, #g-box .g-context ul li a span, #g-box .h-context ul li a span, #g-box .a-context ul li a span, #g-box .e-context ul li a span, #g-box .m-context ul li a span, #hui-box .p-context ul li a span, #hui-box .t-context ul li a span, #hui-box .g-context ul li a span, #hui-box .h-context ul li a span, #hui-box .a-context ul li a span, #hui-box .e-context ul li a span, #hui-box .m-context ul li a span, #a-box .p-context ul li a span, #a-box .t-context ul li a span, #a-box .g-context ul li a span, #a-box .h-context ul li a span, #a-box .a-context ul li a span, #a-box .e-context ul li a span, #a-box .m-context ul li a span, #e-box .p-context ul li a span, #e-box .t-context ul li a span, #e-box .g-context ul li a span, #e-box .h-context ul li a span, #e-box .a-context ul li a span, #e-box .e-context ul li a span, #e-box .m-context ul li a span, #m-box .p-context ul li a span, #m-box .t-context ul li a span, #m-box .g-context ul li a span, #m-box .h-context ul li a span, #m-box .a-context ul li a span, #m-box .e-context ul li a span, #m-box .m-context ul li a span {
+        font-size: 16px;
+        text-align: center;
+        color: #999; }
+
+#form {
+  transition: all .6s linear;
+  width: 840px;
+  height: 500px;
+  border-radius: 10px;
+  background: #fff;
+  position: fixed;
+  top: -45%;
+  opacity: 0;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -420px;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); }
+  #form .title {
+    width: 780px;
+    height: 80px;
+    line-height: 80px;
+    background: #eeff01;
+    border-radius: 10px 10px;
+    color: #070200;
+    padding-left: 60px; }
+    #form .title p {
+      float: left;
+      font-size: 24px; }
+    #form .title a {
+      display: inline-block;
+      float: right;
+      width: 16px;
+      height: 16px;
+      margin: 30px;
+      background: url("../../jiaohukeji/image/colse.png") no-repeat;
+      transition: all .3s linear; }
+  #form .left {
+    width: 240px;
+    border-radius: 0 0 0 10px;
+    background: #fafafa;
+    float: left;
+    height: 380px;
+    padding: 14px 0 26px 60px; }
+    #form .left p {
+      font-size: 18px;
+      color: #666;
+      margin-top: 20px; }
+    #form .left .sao {
+      margin-top: 26px;
+      display: block;
+      width: 140px;
+      height: 140px;
+      background: url("../../jiaohukeji/image/map-erweima.png") no-repeat; }
+  #form .right {
+    float: left;
+    height: 380px;
+    padding: 32px 0 0 60px;
+    border-radius: 0 0 10px 0; }
+    #form .right .post {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      font-size: 18px;
+      color: #666; }
+      #form .right .post span {
+        font-size: 12px;
+        font-style: italic; }
+        #form .right .post span strong {
+          font-size: 12px;
+          color: red; }
+    #form .right .text {
+      line-height: 18px;
+      height: 44px; }
+      #form .right .text textarea {
+        width: 340px;
+        height: 70px;
+        padding-left: 4px;
+        border: 1px solid #ebebeb;
+        resize: none; }
+      #form .right .text .desc {
+        line-height: 2;
+        width: 340px;
+        padding-left: 100px;
+        color: #999; }
+    #form .right li {
+      line-height: 44px;
+      height: 44px; }
+      #form .right li i {
+        font-size: 14px;
+        display: inline-block;
+        width: 100px;
+        height: 34px;
+        text-align: right;
+        color: #666;
+        float: left; }
+        #form .right li i strong {
+          color: red; }
+      #form .right li input {
+        width: 340px;
+        height: 30px;
+        padding-left: 4px;
+        border: 1px solid #ebebeb; }
+    #form .right #butt {
+      display: block;
+      font-size: 16px;
+      line-height: 48px;
+      float: right;
+      width: 345px;
+      height: 48px;
+      color: #070200;
+      border-radius: 2px;
+      background: #eeff01;
+      margin-top: 84px;
+      padding: 0;
+      border: 0; }
+
+/*# sourceMappingURL=achievement.css.map */

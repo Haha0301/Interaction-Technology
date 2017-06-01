@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../scss/reset.css">
+	<link rel="stylesheet" href="../scss/us.css">
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src='../js/angular-1.5.6.js'></script>
+	<script type="text/javascript" src='../js/us.js'></script>
+
+</head>
+<body ng-controller="show">
+	<div id="content">
+		<div id="maodian"></div>
+		<header class="clearfix">
+			<div class="nav1 clearfix">
+				<h1><a href="../../Interaction%20Technology/html/index.html">交互科技</a></h1>
+				<ul class="nav">
+					<li class="click"><a href="../../Interaction%20Technology/html/index.html">首页</a><span></span></li>
+					<li class="click"><a href="../../Interaction%20Technology/html/service.html">服务</a><span></span></li>
+					<li class="click"><a href="../../Interaction%20Technology/html/achievement.html">成果</a><span></span></li>
+					<li class="click active"><a href="javascript:;">我们</a><span></span></li>
+					<li class="click"><a href="teach.html">课堂</a><span></span></li>
+					<li class="btn"><a href="javascript:;">我要合作</a></li>
+				</ul>
+			</div>
+
+		</header>
+		<section class='section'>
+			<div class="banner"></div>
+			<div class="tec">
+				<h2>交互科技</h2>
+				<ul class="honer clearfix">
+					<li>
+						<i></i>
+						<div class="one">
+							<small class="r1"></small><small></small>
+							年
+						</div>
+						<span>成立</span>
+					</li>
+					<li>
+						<i></i>
+						<div class="two">
+							<small class="r1"></small><small class="r2"></small><small></small>
+							人
+						</div>
+						<span>团队</span>
+					</li>
+					<li>
+						<i></i>
+						<div class="three">
+							<small class="r2"></small><small></small><small></small>
+							+
+						</div>
+						</p>
+						<span>项目</span>
+					</li>
+					<li>
+						<i></i>
+						<div class="four">
+							<small class="r1"></small><small class="r8"></small>
+							项
+						</div>
+						<span>获奖</span>
+					</li>
+				</ul>
+				<p class="set">交互科技成立于2006年。经历了十多年的洗礼，从一个不到10人的小团队，发展到如今近130人的规模。秉承着“经典源于生活”的设计理念，专注于为客户提供创新易用的设计方案，整合商业思考、用户体验、美学价值及技术实现，实现产品价值最大化。如今，聚集了不同领域的专业人才，逐渐成长为设计界的中坚力量。</p>
+			</div>
+		</section>
+
+		<div class="boss clearfix">
+			<ul class="left">
+				<li><img src="../image/boss.png" alt=""></li>
+				<li><img src="../image/boss.png" alt=""></li>
+				<li><img src="../image/boss.png" alt=""></li>
+				<li><img src="../image/boss.png" alt=""></li>
+			</ul>
+			<div class="mid">
+				<img src="../image/bossb.png" alt="">
+			</div>
+			<ul class="right">
+				<li>
+					<h2>胡庆 <span>HU</span></h2>
+					<ul class="clearfix">
+						<li><i></i>交互科技创始人</li>
+						<li><i></i>交互时代创始人</li>
+						<li><i></i>视觉设计专家</li>
+						<li><i></i>产品设计顾问</li>
+					</ul>
+					<p>从事艺术设计和互联网UI设计11年，具有丰富的移动端UI设计经验；先后为华为、腾讯等企业的手机APP、软件交互和GUI等项目做视觉设计和指导。</p>
+				</li>
+			</ul>
+		</div>
+		<div class="data">
+			<ul class="clearfix">
+				<li ng-repeat="v in arr">
+					<img src="../image/peo-{{v}}.png" alt="">
+					<span></span>
+				</li>
+			</ul>
+			<P class="join">如果你想成为我们的一员，与有逼格的设计师一起工作，欢迎发送简历到  <span>jiaohu@mid—ui.com</span></P>
+		</div>
+		<footer>
+			<h2>发展历程</h2>
+			<!--轮播图-->
+			<ul class="slider">
+				<li class="b">
+					<i></i>
+					<span></span>
+					<p>2006年我们成立于深圳市南山区，是国内最早的一批UI设计公司，与万利达 、万虹、合兴基业 、创维、融创天下等公司成为战略合作伙伴。</p>
+				</li>
+				<li class="t">
+					<i></i>
+					<span></span>
+					<p>2012年我们在深圳市龙华新区创立视频动效部门，正式成为华为供应商。并在2013年斩获华为UCD中心年度最佳质量奖。</p>
+				</li>
+				<li class="b">
+					<i></i>
+					<span></span>
+					<p>2014年我们成为腾讯供应商。这一年，我们获得华为UCD中心A级合作供应商称号，并斩获华为UCD中心年度最佳支撑奖。</p>
+				</li>
+				<li class="t">
+					<i></i>
+					<span></span>
+					<p>2015年我们正式成立南京分公司、武汉分公司。与京东、美的、汇川、双飞燕、水务集团等公司成为战略合作伙伴。</p>
+				</li>
+				<li class="b">
+					<i></i>
+					<span></span>
+					<p>2016年成立交互时代培训中心，为公司人才供应提供了强有力的保障。这一年，我们获得华为UCD中心年度最佳支撑奖。同时，我们正式成为深圳市安徽滁州商会副会长单位。</p>
+				</li>
+				<li class="t">
+					<i></i>
+					<span></span>
+					<p>未来，充满着机遇和挑战，我们等你来。</p>
+				</li>
+			</ul>
+		</footer>
+		<div class="end">
+			<ul class="address">
+				<li>
+					<p>深圳
+						<span>(总部)</span>
+					</p>
+					<i>shen zhen</i>
+					<a href="http://map.baidu.com/?shareurl=1&poiShareUid=51f4678965eac5ccbca8221b">南山区深圳设计产业园<br/>金栋201-203</a>
+				</li>
+				<li>
+					<p>南京
+					</p>
+					<i>nan jing</i>
+					<a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E9%9B%A8%E8%8A%B1%E5%8F%B0%E6%B2%81%E6%81%92%E7%A7%91%E6%8A%80%E5%9B%ADb%E6%A0%8B">雨花台沁恒科技园<br/>B栋6楼606室</a>
+				</li>
+				<li>
+					<p>武汉
+					</p>
+					<i>wu han</i>
+					<a href="http://map.baidu.com/?shareurl=1&poiShareUid=51f4678965eac5ccbca8221b">新技术开发区关南<br/>福星医药园5栋8层04号（Y）</a>
+				</li>
+				<li>
+					<p>北京
+					</p>
+					<i>bei jing</i>
+					<a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E6%B5%B7%E6%B7%80%E5%8C%BA%E7%A8%BB%E9%A6%99%E6%B9%96%E8%B7%AF%E5%8C%97%E6%B8%85%E8%B7%AF156%E5%8F%B7%E5%8D%8E%E4%B8%BA%E5%8C%97%E7%A0%94%E6%89%80">海淀区稻香湖路北清路<br/>156号华为北研所</a>
+				</li>
+			</ul>
+			<div class="phone">
+				<p>电话：15999560110</p>
+				<p>邮箱：jiaohu@mid-ui.com</p>
+				<p>QQ：810446918 <a href="javascript:;"></a></p>
+			</div>
+			<strong class="ban">版权所有© 2014 深圳市交互科技有限公司 粤ICP备09105404号-3</strong>
+		</div>
+		<ul class="float">
+			<li ><a href="javascript:;" class="qq"></a></li>
+			<li class="rightPhone">
+				<a href="javascript:;" class="p"></a>
+				<ul class="copy">
+					<li class="cOne">
+						<p>电话</p>
+						<span class="btn2"></span>
+					</li>
+					<li class="cTwo">
+						<p>
+							<span></span>
+							0755-8621 8452
+							<i>复制</i>
+						</p>
+					</li>
+					<li class="cThree">
+						<p>
+							<span></span>
+							59 9956 0110
+							<i>复制</i>
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li class="rightW">
+				<a href="javascript:;" class="wei"></a>
+				<div class="watch">
+					<div class="wOne">
+						<p>微信</p>
+						<span class="bt"></span>
+					</div>
+					<div class="wTwo"></div>
+					<p class="pp">扫描二维码，关注交互科技</p>
+				</div>
+			</li>
+			<li><a href="javascript:;" class="back"></a></li>
+		</ul>
+
+	</div>
+	<div id="form">
+		<div class="title">
+			<p>我要合作</p>
+			<a href="javascript:;" class="close"></a>
+		</div>
+		<div class="left">
+			<p>直接联系</p>
+			<p>电话：0755-8621 8452</p>
+			<p>手机：15999560110</p>
+			<p>Q Q：810446918</p>
+			<p>邮箱：jiaohu@mid-ui.com</p>
+			<span class="sao"></span>
+		</div>
+		<ul class="right">
+			<li class="post">提交需求
+				<span>
+					带<strong>*</strong>为必填内容
+				</span>
+			</li>
+			<li>
+				<i>称呼<strong>*</strong>：
+				</i>
+				<input type="text" placeholder="如何称呼您">
+			</li>
+			<li>
+				<i>手机<strong>*</strong>：
+				</i>
+				<input type="text" placeholder="请留下您的联系方式">
+			</li>
+			<li>
+				<i>QQ/微信：
+				</i>
+				<input type="text" placeholder="请留下您的QQ或微信号">
+			</li>
+			<li class="text">
+				<i>需求描述：
+				</i>
+				<textarea name="" id="" cols="30" rows="10" pacleholder="请简要描述您的需求"></textarea>
+				<p class="desc">请简单描述您的需求，我们会在24小时内联系您。</p>
+			</li>
+			<!--<li >请简单描述您的需求，我们会在24小时内联系您。</li>-->
+			<button>提交</button>
+		</ul>
+
+	</div>
+</body>
+
+</html>
